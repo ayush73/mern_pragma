@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "to do backnend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush73/Todo-Mern.git"
+  },
+  "author": "Ayush and Hrithik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayush73/Todo-Mern/issues"
+  },
+  "homepage": "https://github.com/ayush73/Todo-Mern#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
+}
