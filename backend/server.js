@@ -5,6 +5,8 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const TodoModel = require("./models/todoList")
 
+const port = process.env.PORT || 3001;
+
 var app = express();
 app.use(cors());
 app.use(express.json());
@@ -56,6 +58,6 @@ app.delete("/deleteTodoList/:id", (req, res) => {
         .catch((err) => res.json(err));
 });
 
-app.listen(3001, () => {
+app.listen(port, () => {
     console.log('Server running on 3001');
 });
